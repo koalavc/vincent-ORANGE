@@ -1,0 +1,83 @@
+@font-face {
+  font-family: CooperBlack;
+  src: url(../fonts/cooprblk.ttf);
+}
+
+.word-spacer {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body {
+  background: #f17029;
+}
+
+body .container {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 7em;
+  height: 98vh;
+}
+
+body .container .channel {
+  font-family: CooperBlack;
+}
+
+body .container .orange {
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+body .container .parental-advisory {
+  width: 200px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+
+body .tracklist-container {
+  height: 90vh;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+body .tracklist-container ul {
+  list-style-type: none;
+}
+
+body .tracklist-container ul .spaced-words {
+  word-spacing: 10px;
+}
+
+body .tracklist-container ul li {
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 3.5px;
+}
+
+body .tracklist-container ul li a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */

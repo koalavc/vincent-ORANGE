@@ -1,0 +1,96 @@
+//.......................................................................................................
+//...ffffr............................kkk................................................................
+//..fffffr............................kkk................................................................
+//..ffff.......r......................kkk................................................................
+//.ffffffrrrrrrr..aaaaaa...nnnnnnnn...kkk..kkkk.......ooooooo....ccccccc...eeeeee....aaaaaa...nnnnnnnn...
+//.ffffffrrrrrrr.aaaaaaaa..nnnnnnnnn..kkk.kkkk.......ooooooooo..cccccccc..eeeeeeee..aaaaaaaa..nnnnnnnnn..
+//..ffff..rrrrrr.aaa.aaaa..nnnn.nnnn..kkkkkkk........oooo.oooo..cccc.cccc.eeee.eeee.aaa.aaaa..nnnn.nnnn..
+//..ffff..rrrr.....aaaaaa..nnnn..nnn..kkkkkkk....... ooo...oooooccc..ccccceee..eeee...aaaaaa..nnnn..nnn..
+//..ffff..rrr....aaaaaaaa..nnn...nnn..kkkkkkk....... ooo...oooooccc......ceeeeeeeee.aaaaaaaa..nnn...nnn..
+//..ffff..rrr...aaaaaaaaa..nnn...nnn..kkkkkkk....... ooo...oooooccc......ceeeeeeeeeeaaaaaaaa..nnn...nnn..
+//..ffff..rrr...aaaa..aaa..nnn...nnn..kkk.kkkk...... ooo...oooooccc..ccccceee......eaaa..aaa..nnn...nnn..
+//..ffff..rrr...aaaa.aaaa..nnn...nnn..kkk.kkkk.......oooo.oooo..cccc.cccc.eeee.eeeeeaaa.aaaa..nnn...nnn..
+//..ffff..rrr...aaaaaaaaaaannn...nnn..kkk..kkkk......ooooooooo..cccccccc..eeeeeeee.eaaaaaaaaaannn...nnn..
+//..ffff..rrr....aaaaaaaaaannn...nnn..kkk..kkkk.......ooooooo....ccccccc...eeeeeee..aaaaaaaaaannn...nnn..
+//.......................................................................................................
+@font-face {
+    font-family: CooperBlack;
+    src: url(../fonts/cooprblk.ttf);
+}
+
+$frank-ocean-orange: #f17029;
+
+.word-spacer {
+    margin: {
+        left: 10px;
+        right: 10px;
+    }
+}
+
+body {
+  background: $frank-ocean-orange;
+  .container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7em;
+    height: 98vh;
+
+    .channel {
+        font-family: CooperBlack;
+        // opacity: ;
+        // background-image: url(../img/8.jpg);
+        // color: rgba(0, 0, 0, 0.5);
+        // color: transparent;
+    }
+    
+    .orange {
+        margin-left: 20px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    .parental-advisory {
+        width: 200px;
+        height: 100px;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+    }
+  }
+
+  .tracklist-container {
+        height: 90vh;
+        margin: {
+            left: 25px;
+            right: 25px;
+        }
+
+        ul {
+            list-style-type: none;
+            
+            .spaced-words {
+                word-spacing: 10px;
+            }
+
+            li {
+                margin-bottom: 35px;
+                text-transform: uppercase;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                color: white;
+                letter-spacing: 3.5px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
