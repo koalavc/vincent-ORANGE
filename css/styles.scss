@@ -1,18 +1,22 @@
-//.......................................................................................................
-//...ffffr............................kkk................................................................
-//..fffffr............................kkk................................................................
-//..ffff.......r......................kkk................................................................
-//.ffffffrrrrrrr..aaaaaa...nnnnnnnn...kkk..kkkk.......ooooooo....ccccccc...eeeeee....aaaaaa...nnnnnnnn...
-//.ffffffrrrrrrr.aaaaaaaa..nnnnnnnnn..kkk.kkkk.......ooooooooo..cccccccc..eeeeeeee..aaaaaaaa..nnnnnnnnn..
-//..ffff..rrrrrr.aaa.aaaa..nnnn.nnnn..kkkkkkk........oooo.oooo..cccc.cccc.eeee.eeee.aaa.aaaa..nnnn.nnnn..
-//..ffff..rrrr.....aaaaaa..nnnn..nnn..kkkkkkk....... ooo...oooooccc..ccccceee..eeee...aaaaaa..nnnn..nnn..
-//..ffff..rrr....aaaaaaaa..nnn...nnn..kkkkkkk....... ooo...oooooccc......ceeeeeeeee.aaaaaaaa..nnn...nnn..
-//..ffff..rrr...aaaaaaaaa..nnn...nnn..kkkkkkk....... ooo...oooooccc......ceeeeeeeeeeaaaaaaaa..nnn...nnn..
-//..ffff..rrr...aaaa..aaa..nnn...nnn..kkk.kkkk...... ooo...oooooccc..ccccceee......eaaa..aaa..nnn...nnn..
-//..ffff..rrr...aaaa.aaaa..nnn...nnn..kkk.kkkk.......oooo.oooo..cccc.cccc.eeee.eeeeeaaa.aaaa..nnn...nnn..
-//..ffff..rrr...aaaaaaaaaaannn...nnn..kkk..kkkk......ooooooooo..cccccccc..eeeeeeee.eaaaaaaaaaannn...nnn..
-//..ffff..rrr....aaaaaaaaaannn...nnn..kkk..kkkk.......ooooooo....ccccccc...eeeeeee..aaaaaaaaaannn...nnn..
-//.......................................................................................................
+//.......................................................
+//.................ttt...........................tttt....
+//................tttt...........................tttt....
+//................tttt...........................tttt....
+//...sssssssss..sttttttt...aaaaaaaa....rrrrrrrrrttttttt..
+//..sssssssssss.sttttttt..aaaaaaaaaa...rrrrrrrrrttttttt..
+//..sssssssssss.sttttttt.aaaaaaaaaaa...rrrrrrrrrttttttt..
+//..ssss...sssss..tttt...aaaaa..aaaa...rrrrrr...ttttt....
+//..ssssss........tttt..........aaaa...rrrrr....ttttt....
+//..ssssssssss....tttt....aaaaaaaaaa...rrrr.....ttttt....
+//...ssssssssss...tttt...aaaaaaaaaaa...rrrr.....ttttt....
+//....ssssssssss..tttt...aaaaa..aaaa...rrrr.....ttttt....
+//........ssssss..tttt..taaaa...aaaa...rrrr.....ttttt....
+//.sssss....ssss..tttt..taaaa..aaaaaa..rrrr.....ttttt....
+//..ssssssssssss..tttttt.aaaaaaaaaaaaa.rrrr.....ttttttt..
+//..sssssssssss...tttttt.aaaaaaaaaaaaa.rrrr......tttttt..
+//...sssssssss....tttttt..aaaaaa.aaaaa.rrrr......tttttt..
+//.......................................................
+
 @font-face {
     font-family: CooperBlack;
     src: url(../fonts/cooprblk.ttf);
@@ -39,7 +43,6 @@ body {
 
     .channel {
         font-family: CooperBlack;
-        // opacity: ;
         // background-image: url(../img/8.jpg);
         // color: rgba(0, 0, 0, 0.5);
         // color: transparent;
@@ -94,3 +97,92 @@ body {
         }
     }
 }
+
+//......................................................................................................................................................
+//.TTTTTTTTTTT.hhh........iii.............kkk.......iii..................BBBBBBBBBB..........................tt.......YYYY....YYYY......................
+//.TTTTTTTTTTT.hhh........iii.............kkk.......iii..................BBBBBBBBBBB........................ttt.......YYYYY..YYYYY......................
+//.TTTTTTTTTTT.hhh........................kkk............................BBB...BBBBB........................ttt........YYYY..YYYY.......................
+//.....TTT.....hhhhhhhh...iii..nnnnnnnn...kkk..kkkk.iii..nnnnnnnn........BBB....BBBB...ooooooo...uuu...uuu.tttttt.......YYYYYYYY...ooooooo..ouuu...uuu..
+//.....TTT.....hhhhhhhhh..iii..nnnnnnnnn..kkk.kkkk..iii..nnnnnnnnn.......BBB...BBBBB..ooooooooo..uuu...uuu.tttttt.......YYYYYYYY..ooooooooo.ouuu...uuu..
+//.....TTT.....hhhhhhhhh..iii..nnnn.nnnn..kkkkkkk...iii..nnnn.nnnn.......BBBBBBBBBB...oooo.oooo..uuu...uuu..ttt..........YYYYYY..Yoooo.oooo.ouuu...uuu..
+//.....TTT.....hhhh..hhh..iii..nnnn..nnn..kkkkkkk...iii..nnnn..nnn.......BBBBBBBBBBB.oooo...oooo.uuu...uuu..ttt..........YYYYYY..Yooo...ooo.ouuu...uuu..
+//.....TTT.....hhh...hhh..iii..nnn...nnn..kkkkkkk...iii..nnn...nnn.......BBB...BBBBB.oooo...oooo.uuu...uuu..ttt...........YYYY...Yooo...ooooouuu...uuu..
+//.....TTT.....hhh...hhh..iii..nnn...nnn..kkkkkkk...iii..nnn...nnn.......BBB.....BBBBoooo...oooo.uuu...uuu..ttt...........YYYY...Yooo...ooooouuu..uuuu..
+//.....TTT.....hhh...hhh..iii..nnn...nnn..kkk.kkkk..iii..nnn...nnn.......BBB.....BBBBoooo...oooo.uuu..uuuu..ttt...........YYYY...Yooo...ooo.ouuu..uuuu..
+//.....TTT.....hhh...hhh..iii..nnn...nnn..kkk.kkkk..iii..nnn...nnn.......BBB...BBBBBB.oooo.oooo..uuuu.uuuu..tttt..........YYYY...Yoooo.oooo.ouuuu.uuuu..
+//.....TTT.....hhh...hhh..iii..nnn...nnn..kkk..kkkk.iii..nnn...nnn.......BBBBBBBBBBB..ooooooooo..uuuuuuuuu..ttttt.........YYYY....ooooooooo..uuuuuuuuu..
+//.....TTT.....hhh...hhh..iii..nnn...nnn..kkk..kkkk.iii..nnn...nnn.......BBBBBBBBBB....ooooooo...uuuuuuuuu..ttttt.........YYYY.....ooooooo...uuuuuuuuu..
+//......................................................................................................................................................
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+
+    body {
+        .container {
+            font-size: 3em;
+
+            .parental-advisory {
+                width: 150px;
+                height: 90px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+
+    body {
+        .container {
+            display: flex;
+
+            // height: 98vh;
+            font-size: 2em;
+
+            .parental-advisory {
+                width: 150px;
+                height: 90px;
+            }
+        }
+
+        .tracklist-container {
+            margin: {
+                left: 8px;
+                right: 8px;
+            }
+
+            ul {
+                padding-left: 20px;
+
+                .spaced-words {
+                    word-spacing: 5px;
+                }
+
+                li {
+                    letter-spacing: 2px;
+                    font-size: 10px;
+                    margin-bottom: 25px
+                }
+            }
+        }
+    }
+}
+
+//.............................................
+//......................................dddd...
+//......................................dddd...
+//......................................dddd...
+//......................................dddd...
+//......................................dddd...
+//....eeeeeeee...nnnnnnnnnnn......dddddddddd...
+//...eeeeeeeeee..nnnnnnnnnnnn....ddddddddddd...
+//..eeeeeeeeeee..nnnnnnnnnnnnn..dddddddddddd...
+//..eeee...eeeee.nnnnnn..nnnnn..ddddd..ddddd...
+//..eeeeeeeeeeee.nnnnn...nnnnn..dddd....dddd...
+//.eeeeeeeeeeeee.nnnnn....nnnn..dddd....dddd...
+//.eeeeeeeeeeeee.nnnnn....nnnn.ndddd....dddd...
+//.eeeee.........nnnnn....nnnn..dddd....dddd...
+//..eeee.........nnnnn....nnnn..dddd....dddd...
+//..eeeee..eeeee.nnnnn....nnnn..ddddd..ddddd...
+//..eeeeeeeeeeee.nnnnn....nnnn..dddddddddddd...
+//...eeeeeeeeee..nnnnn....nnnn...dddddddddddd..
+//....eeeeeeee...nnnnn....nnnn...dddddddddddd..
+//.............................................

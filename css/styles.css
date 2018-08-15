@@ -80,4 +80,42 @@ body .tracklist-container ul li a {
   text-decoration: none;
   color: white;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+  body .container {
+    font-size: 3em;
+  }
+  body .container .parental-advisory {
+    width: 150px;
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2em;
+  }
+  body .container .parental-advisory {
+    width: 150px;
+    height: 90px;
+  }
+  body .tracklist-container {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  body .tracklist-container ul {
+    padding-left: 20px;
+  }
+  body .tracklist-container ul .spaced-words {
+    word-spacing: 5px;
+  }
+  body .tracklist-container ul li {
+    letter-spacing: 2px;
+    font-size: 10px;
+    margin-bottom: 25px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
